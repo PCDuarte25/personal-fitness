@@ -1,0 +1,37 @@
+main {
+    background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+    margin: 50px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #FFFF;
+}
+
+.main__container {
+    padding: 20px 35px;
+}
+
+.main__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_greeting > h1 {
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}   
+
+.main_greeting > p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5aaad;
+}
